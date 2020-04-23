@@ -54,6 +54,7 @@ int main()
   int input;
   string status_message;
   Cell* new_cell;
+  keypad(stdscr, TRUE);
   time_t update_time = time(NULL);
   while (loop_flag)
   {
